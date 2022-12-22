@@ -1,0 +1,191 @@
+html {
+  scroll-behavior:smooth;
+  font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  background:#7ebfeb;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #51b1f1;
+  border-radius: 5px;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+
+}
+
+h1 {
+  font-size: 50pt;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+label {
+  float: left;
+}
+
+input {
+  padding-top: 5px;
+  font-size: 20px;
+  width: 25vw;
+  height: 35px;
+  border-radius: 5px;
+  border: 2px solid #6E297B;
+}
+
+button {
+  cursor:pointer;
+}
+
+a {
+  color: inherit;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FFDD17;
+}
+
+a:active {
+  color: #FFDD17;
+}
+
+.error {
+  display: none;
+  color: red;
+  text-align: center;
+  margin: 0;
+}
+
+.success {
+  display: none;
+  color: #4BB543;
+  text-align: center;
+  margin: 0;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: fit-content;
+  text-align: center;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.center-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.submitBtn {
+  font-size: 20px;
+  width: 25vw;
+  height:4vh;
+  border-radius: 5px;
+  background-color: #1C4C96;
+  border:  none;
+  color: #FFFFFF;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.backBtn {
+  font-size: 20px;
+  font-weight: bold;
+  width: 25vw;
+  height:4vh;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  border: 3px solid #1C4C96;
+  color: #1C4C96;
+  margin-bottom: 10px;
+}
+
+.icon {
+  position: relative;
+  top: 5px;
+  padding-right: 15px;
+}
+
+
+
+.emergencyTiles {
+  margin: 0 auto;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+
+#emergencyProcedures {
+  display:flex;
+  background-color: #F3F6F4;
+}
+
+.card-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50%;
+  height: auto;
+}
+
+.btn-primary{
+  background-color: #1C4C96;
+}
+
+.btn-primary:hover{
+  background-color: #6E297B;
+}
+
+.card{
+  width: 18rem;
+  height: 20rem;
+}
